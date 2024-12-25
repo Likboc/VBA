@@ -18,6 +18,9 @@ Sub DimVar()
         
         'also private & public keyword is supported by VBA, but it's not widely used in my project
         
+        'the constant can't be reassigned, you must initialize while declaring
+        'Const p As Single = 3.14
+        
 End Sub
 
 
