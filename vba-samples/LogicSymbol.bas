@@ -26,4 +26,9 @@ Sub LogicSymbol()
         Exit For 'equal to continue
     Next i
 
+    'Do loop, consist of Do While, Do Until
+        MsgBox "hi"
+        Exit Do 'equal to continue
+    Loop
+
 End Sub
