@@ -27,6 +27,17 @@ Sub LogicSymbol()
     Next i
 
     'Do loop, consist of Do While, Do Until
+    Do While 1 < 5
+        MsgBox "hi"
+        Exit Do 'equal to continue
+    Loop
+
+    Do 
+        MsgBox "hi"
+        Exit Do 'equal to continue
+    Loop While 1 < 5
+
+    Do Until 1 > 5
         MsgBox "hi"
         Exit Do 'equal to continue
     Loop
